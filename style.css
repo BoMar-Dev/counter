@@ -1,0 +1,114 @@
+.main-container, .main-text, .counting, .increment-btn, .savingNumbersText, .reset-btn, .save-btn {
+    font-family: 'Francois One', sans-serif;  
+}
+
+.main-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+background-image: url(img/colorsmoke.jpg);
+background-size: cover;
+
+}
+
+.main-text{
+    font-size: 4rem;
+    font-weight: bold;
+    font-weight: 100; 
+    background: -webkit-linear-gradient(#1599da, #ce1e1e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    text-shadow: 0 0 80px rgb(180, 174, 174);;
+    
+    
+
+}
+
+.counting{
+    font-size: 3rem;
+    padding:2rem;
+    width: 100px;
+    border-radius: 10px;
+    
+    background: black;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    color: rgb(255, 4, 4);
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #fff;;
+   
+
+}
+
+.button-container{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+   
+}
+
+.increment-btn{
+    
+    margin-bottom: 10px;
+    font-size: 2rem;
+    border-radius: 5px;
+    height: 70px;
+    background: -webkit-linear-gradient(#ebf4f8, #1ecbce);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #fff;;
+    
+}
+
+.increment-btn:hover{
+    transform: scale(1.1);
+}
+
+.reset-btn{
+    
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background: -webkit-linear-gradient(#c02727, #621433);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #fff;;
+
+}
+
+.reset-btn:hover{
+    transform: scale(1.1);
+}
+
+
+.save-btn{
+    padding: 3px 15px 3px 15px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    border-radius: 5px;
+    margin-right: 10px;
+    background: -webkit-linear-gradient(#000000, #1ecbce);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px #fff;;
+    
+}
+
+.save-btn:hover{
+    transform: scale(1.1);
+}
+
+
+.savingNumbersText{
+    background: -webkit-linear-gradient(#c02727, #621433);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
