@@ -1,0 +1,2 @@
+# counter
+Learning JavaScript basic
